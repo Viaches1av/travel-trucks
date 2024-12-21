@@ -20,7 +20,7 @@ const Details = ({ camper }) => {
             camper[feature.key] && (
               <span key={feature.key} className={styles.tag}>
                 <svg className={styles.icon}>
-                  <use href={`/src/assets/sprite.svg#${feature.icon}`} />
+                  <use href={`/sprite.svg#${feature.icon}`} />
                 </svg>
                 {feature.label}
               </span>

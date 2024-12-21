@@ -96,7 +96,7 @@ const FilterForm = ({ onFilter, initialFilters }) => {
         <p className={styles.filtersTitle}>Location</p>
         <div className={styles.inputWrapper}>
           <svg className={styles.icon}>
-            <use href='/src/assets/sprite.svg#icon-map'></use>
+            <use href='/sprite.svg#icon-map'></use>
           </svg>
           <input
             type='text'
@@ -126,7 +126,7 @@ const FilterForm = ({ onFilter, initialFilters }) => {
                 onChange={handleChange}
               />
               <svg className={styles.icon}>
-                <use href={`/src/assets/sprite.svg#icon-${key}`}></use>
+                <use href={`/sprite.svg#icon-${key}`}></use>
               </svg>
               {key.charAt(0).toUpperCase() + key.slice(1)}
             </label>
@@ -154,7 +154,7 @@ const FilterForm = ({ onFilter, initialFilters }) => {
               />
               <svg className={styles.icon}>
                 <use
-                  href={`/src/assets/sprite.svg#icon-${
+                  href={`/sprite.svg#icon-${
                     key === 'all' ? 'square1' : key
                   }`}
                 ></use>

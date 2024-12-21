@@ -44,7 +44,7 @@ const CamperCard = ({ camper }) => {
             >
               <svg className={styles.icon}>
                 <use
-                  href={`/src/assets/sprite.svg#${
+                  href={`/sprite.svg#${
                     isFavorite ? 'icon-favorite2' : 'icon-favorite1'
                   }`}
                 />
@@ -55,13 +55,13 @@ const CamperCard = ({ camper }) => {
         <div className={styles.ratingLocation}>
           <p className={styles.cardRating}>
             <svg className={styles.icon}>
-              <use href='/src/assets/sprite.svg#icon-star1' />
+              <use href='/sprite.svg#icon-star1' />
             </svg>
             {camper.rating.toFixed(1)} ({camper.reviews.length} Reviews)
           </p>
           <p className={styles.cardLocation}>
             <svg className={styles.icon}>
-              <use href='/src/assets/sprite.svg#icon-map' />
+              <use href='/sprite.svg#icon-map' />
             </svg>
             {camper.location}
           </p>
@@ -71,7 +71,7 @@ const CamperCard = ({ camper }) => {
           {camper.transmission && (
             <span className={styles.tag}>
               <svg className={styles.icon}>
-                <use href='/src/assets/sprite.svg#icon-automatic' />
+                <use href='/sprite.svg#icon-automatic' />
               </svg>
               {camper.transmission}
             </span>
@@ -79,7 +79,7 @@ const CamperCard = ({ camper }) => {
           {camper.AC && (
             <span className={styles.tag}>
               <svg className={styles.icon}>
-                <use href='/src/assets/sprite.svg#icon-AC' />
+                <use href='/sprite.svg#icon-AC' />
               </svg>
               AC
             </span>
@@ -87,7 +87,7 @@ const CamperCard = ({ camper }) => {
           {camper.kitchen && (
             <span className={styles.tag}>
               <svg className={styles.icon}>
-                <use href='/src/assets/sprite.svg#icon-kitchen' />
+                <use href='/sprite.svg#icon-kitchen' />
               </svg>
               Kitchen
             </span>

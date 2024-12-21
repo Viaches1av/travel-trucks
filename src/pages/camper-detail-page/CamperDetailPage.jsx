@@ -57,7 +57,7 @@ const CamperDetailPage = () => {
           <div className={styles.ratingLocation}>
             <span className={styles.rating}>
               <svg className={styles.icon}>
-                <use href='/src/assets/sprite.svg#icon-star1'></use>
+                <use href='/sprite.svg#icon-star1'></use>
               </svg>
               {currentCamper.rating.toFixed(1)}{' '}
               <span className={styles.commentsCount}>
@@ -66,7 +66,7 @@ const CamperDetailPage = () => {
             </span>
             <span>
               <svg className={styles.icon}>
-                <use href='/src/assets/sprite.svg#icon-map'></use>
+                <use href='/sprite.svg#icon-map'></use>
               </svg>
               {currentCamper.location}
             </span>

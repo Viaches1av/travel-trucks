@@ -30,7 +30,7 @@ const Reviews = ({ reviews }) => {
                       aria-hidden="true"
                     >
                       <use
-                        href={`/src/assets/sprite.svg#${i < review.reviewer_rating ? 'icon-star1' : 'icon-star0'}`}
+                        href={`/sprite.svg#${i < review.reviewer_rating ? 'icon-star1' : 'icon-star0'}`}
                       />
                     </svg>
                   ))}

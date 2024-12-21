@@ -1,0 +1,42 @@
+.home {
+  position: relative;
+  height: 100vh;
+  background: url('../../assets/Picture.png') no-repeat center center/cover;
+}
+
+.main {
+  position: absolute;
+  top: 50%;
+  left: var(--spacing-48);
+  transform: translateY(-50%);
+  text-align: left;
+  color: var(--color-white);
+}
+
+.title {
+  font-size: var(--spacing-48);
+  font-weight: var(--font-weight-semibold);
+  margin-bottom: var(--spacing-16);
+}
+
+.subtitle {
+  font-size: var(--font-size-large);
+  font-weight: var(--font-weight-regular);
+  margin-bottom: var(--spacing-48);
+}
+
+.cta {
+  display: inline-block;
+  padding: var(--spacing-16) 48px;
+  font-size: var(--font-size-base);
+  color: var(--color-white);;
+  font-weight: var(--font-weight-medium);
+  background-color: var(--color-accent-red);
+  border-radius: var(--border-radius-large);
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.cta:hover {
+  background-color: var(--color-red-dark);
+}

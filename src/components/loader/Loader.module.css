@@ -1,0 +1,6 @@
+.loader {
+  font-size: var(--font-size-large);
+  color: var(--color-neutral-dark);
+  text-align: center;
+  margin: var(--spacing-24) 0;
+}

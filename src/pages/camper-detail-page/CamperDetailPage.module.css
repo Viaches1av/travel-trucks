@@ -1,0 +1,116 @@
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: var(--spacing-48) 0;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-8);
+  margin-bottom: var(--spacing-24);
+}
+
+.name{
+font-size: var(--font-size-large);
+}
+
+.ratingLocation {
+  display: flex;
+  gap: var(--spacing-16);
+  font-size: var(--font-size-base);
+  color: var(--color-neutral-dark);
+  padding-bottom: var(--spacing-8);
+}
+
+.ratingLocation .icon {
+  width: 16px;
+  height: 16px;
+  margin-right: var(--spacing-8);
+}
+
+.rating {
+  text-decoration: underline;
+}
+
+.price {
+  font-size: var(--font-size-large);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-primary-dark);
+}
+
+.gallery {
+  display: flex;
+  gap: var(--spacing-48);
+  overflow-x: auto;
+}
+
+.gallery::-webkit-scrollbar {
+  height: 6px;
+}
+
+.gallery::-webkit-scrollbar-thumb {
+  background: var(--color-gray-light);
+  border-radius: var(--border-radius-small);
+}
+
+.gallery::-webkit-scrollbar-thumb:hover {
+  background: var(--color-gray-lighter);
+}
+
+.galleryImage {
+  width: 290px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: var(--border-radius-small);
+}
+
+.description {
+  font-size: var(--font-size-base);
+  color: var(--color-neutral-dark);
+  margin: var(--spacing-24) 0;
+}
+
+.tabs {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin: var(--spacing-24) 0;
+  padding-bottom: var(--spacing-24);
+  border-bottom: 1px solid var(--color-gray-light);
+}
+
+.tabButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: var(--font-size-medium);
+  color: var(--color-primary-dark);
+  margin-right: var(--spacing-24);
+  font-weight: var(--font-weight-semibold);
+  text-align: left;
+  position: relative;
+}
+
+.indicator {
+  position: absolute;
+  bottom: -2px;
+  height: 5px;
+  background-color: var(--color-accent-red);
+  transition: transform 0.5s cubic-bezier(0.25, 0.1, 0.25, 1),
+    width 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+  width: 0;
+}
+
+.content {
+  display: flex;
+  gap: var(--spacing-24);
+}
+
+.leftContent {
+  flex: 1;
+}
+
+.rightContent {
+  flex: 1;
+}

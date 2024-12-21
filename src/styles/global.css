@@ -1,0 +1,59 @@
+:root {
+  /* ===== Colors ===== */
+  --color-primary-dark: #101828;
+  --color-secondary-dark: #475467;
+  --color-neutral-dark: #6C717B;
+  --color-accent-red: #E44848;
+  --color-red-dark: #D84343;
+  --color-yellow: #FFC531;
+  --color-gray-light: #DADDE1;
+  --color-gray-lighter: #F2F4F7;
+  --color-gray-background: #F7F7F7;
+  --color-white: #FFFFFF;
+
+  /* ===== Fonts ===== */
+  --font-family-base: 'Inter', Arial, sans-serif;
+  --font-size-base: 16px;
+  --font-size-medium: 20px;
+  --font-size-large: 24px;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+
+  /* ===== Spacing ===== */
+  --spacing-8: 8px;
+  --spacing-12: 12px;
+  --spacing-16: 16px;
+  --spacing-18: 18px;
+  --spacing-24: 24px;
+  --spacing-48: 48px;
+  --max-width: 1300px;
+  --spacing-horizontal: 1rem;
+
+  /* ===== Borders ===== */
+  --border-radius-small: 12px; /* for blocks and images */
+  --border-radius-medium: 20px; /* for inputs and filters */
+  --border-radius-large: 40px; /* for buttons */
+
+  /* ===== Buttons ===== */
+  --button-padding: 16px 40px;
+  --button-primary-bg: var(--color-accent-red);
+  --button-primary-hover: var(--color-red-dark);
+  --button-text-color: var(--color-white);
+}
+
+/* Глобальные стили */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-base);
+  color: var(--color-primary-dark);
+  line-height: 1.5;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+}
